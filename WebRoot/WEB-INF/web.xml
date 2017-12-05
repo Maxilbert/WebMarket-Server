@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+  <welcome-file-list>
+  	<welcome-file>TestVerify.html</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Verify</servlet-name>
+    <servlet-class>webmarket.Verify</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+    <servlet-name>Verify</servlet-name>
+    <url-pattern>/Verify</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>webmarket.Register</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AllProduct</servlet-name>
+    <servlet-class>webmarket.AllProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AllProduct</servlet-name>
+    <url-pattern>/AllProduct</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveCart</servlet-name>
+    <servlet-class>webmarket.SaveCart</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>SaveCart</servlet-name>
+    <url-pattern>/SaveCart</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCart</servlet-name>
+    <servlet-class>webmarket.GetCart</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>GetCart</servlet-name>
+    <url-pattern>/GetCart</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayCart</servlet-name>
+    <servlet-class>webmarket.PayCart</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>PayCart</servlet-name>
+    <url-pattern>/PayCart</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditCart</servlet-name>
+    <servlet-class>webmarket.EditCart</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>EditCart</servlet-name>
+    <url-pattern>/EditCart</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveCard</servlet-name>
+    <servlet-class>webmarket.SaveCard</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveCard</servlet-name>
+    <url-pattern>/SaveCard</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCard</servlet-name>
+    <servlet-class>webmarket.GetCard</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>GetCard</servlet-name>
+    <url-pattern>/GetCard</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Payment</servlet-name>
+    <servlet-class>webmarket.Payment</servlet-class>
+  </servlet>
+    <servlet-mapping>
+    <servlet-name>Payment</servlet-name>
+    <url-pattern>/Payment</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAddr</servlet-name>
+    <servlet-class>webmarket.GetAddr</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAddr</servlet-name>
+    <url-pattern>/GetAddr</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOrder</servlet-name>
+    <servlet-class>webmarket.GetOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetOrder</servlet-name>
+    <url-pattern>/GetOrder</url-pattern>
+  </servlet-mapping>  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetProfile</servlet-name>
+    <servlet-class>webmarket.GetProfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetProfile</servlet-name>
+    <url-pattern>/GetProfile</url-pattern>
+  </servlet-mapping>  
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Manager</servlet-name>
+    <servlet-class>webmarket.Manager</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Manager</servlet-name>
+    <url-pattern>/Manager</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Call</servlet-name>
+    <servlet-class>webmarket.Call</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Call</servlet-name>
+    <url-pattern>/Call</url-pattern>
+  </servlet-mapping>
+
+</web-app>
